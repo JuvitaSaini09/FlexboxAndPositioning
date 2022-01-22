@@ -13,48 +13,26 @@
 
 <body>
 
-    <main>
-        <div class="item-container">
-            <p class="item">Text with a badge</p>
-            <div class="badge item" id="item1">4</div>
-        </div>
+   <main>
+   
+     <p class="badge-parent">Text with a badge<span class="badge">4</span></p>
 
+     <p class="badge-parent">Text with large badge<span class="badge" id="badge2">4</span></p>
 
-        <div class="item-container">
-            <p class="item">Text with a large badge</p>
-            <div class="badge item" id="item2">1</div>
-        </div>
+     <p>Button with a badge onthe left <button class="badge-parent">Action<span class="badge">8</span></button></p>
 
+     <p>Button toggles basge visibilty<button id="toggle-btn" class="badge-parent">Hide<span id="badge4"class="badge">8</span></button></p>
 
-
-        <div class="item-container">
-            <p class="item">button with a badge</p><button class="item">Action
-            </button>
-            <div class="badge item" id="item3">8</div>
-        </div>
-
-
-
-        <div class="item-container">
-            <p class="item">button toggles badge visibilty Hide</p>
-            <button class="item" id="toggle-btn">Hide</button>
-            <div class="badge item" id="item4">7</div>
-        </div>
+     <p>Icon with a badge<span class="badge-parent"><i class="fas fa-home fa-2x"></i><span class="badge">15</span></p>
+   
+   </main>
 
 
 
 
-        <div class="item-container">
-            <p class="item">icon with a badge<span id="icon"><i class="fas fa-home fa-2x"></i></span></p>
-            <div class="badge item" id="item5">12</div>
-        </div>
 
-
-
-
-    </main>
     <script type="text/javascript">
-        let toggleItem = document.querySelector("#item4");
+        let toggleItem = document.querySelector("#badge4");
         let toggleBtn = document.querySelector("#toggle-btn")
 
 
@@ -66,6 +44,8 @@
                 toggleItem.style.display = "none";
 
         })
+
+    -->
     </script>
 </body>
 
