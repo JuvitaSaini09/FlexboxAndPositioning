@@ -21,12 +21,12 @@ img {
 }
 
 .chips {
-    border: 1px solid rgb(123, 123, 240);
+    border: 1px solid rgb(110, 110, 230);
     border-radius: 150px;
     padding: 5px;
     background-color: lightblue;
     color: white;
-    background-color: rgb(11, 74, 211);
+    background-color: rgb(124, 156, 224);
 
 }
 
