@@ -10,7 +10,7 @@ main {
 .item-container {
     display: flex;
     align-items: baseline;
-    position: relative;
+  /*  position: relative;*/
 }
 
 .item {
@@ -40,7 +40,7 @@ button {
 }
 
 #item1 {
-    top:10%;
+    top:1%;
     left:25%;
 }
 
