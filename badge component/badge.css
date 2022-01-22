@@ -1,0 +1,72 @@
+main {
+    font-size: 19px;
+}
+
+.item-container {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+
+.item {
+    display: flex;
+}
+
+.badge {
+    color: white;
+    background-color: rgb(80, 13, 126);
+    padding: 2px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+button {
+    padding-top: 5px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#item1 {
+    top: 5px;
+    left: 130px;
+}
+
+#item2 {
+    top: 2px;
+    left: 170px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+#item3 {
+    background-color: red;
+    top: 2px;
+    left: 153px;
+}
+
+#item4 {
+    top: 3px;
+    left: 267px;
+}
+
+#item5 {
+    bottom: 55px;
+    left: 168px;
+    background-color: red;
+}
+
+#icon {
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+
+}

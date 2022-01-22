@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="badge.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>badge</title>
+
+</head>
+
+<body>
+
+    <main>
+        <div class="item-container">
+            <p class="item">Text with a badge</p>
+            <div class="badge item" id="item1">4</div>
+        </div>
+
+
+        <div class="item-container">
+            <p class="item">Text with a large badge</p>
+            <div class="badge item" id="item2">1</div>
+        </div>
+
+
+
+        <div class="item-container">
+            <p class="item">button with a badge</p><button class="item">Action
+            </button>
+            <div class="badge item" id="item3">8</div>
+        </div>
+
+
+
+        <div class="item-container">
+            <p class="item">button toggles badge visibilty Hide</p>
+            <button class="item" id="toggle-btn">Hide</button>
+            <div class="badge item" id="item4">7</div>
+        </div>
+
+
+
+
+        <div class="item-container">
+            <p class="item">icon with a badge<span id="icon"><i class="fas fa-home fa-2x"></i></span></p>
+            <div class="badge item" id="item5">12</div>
+        </div>
+
+
+
+
+    </main>
+    <script type="text/javascript">
+        let toggleItem = document.querySelector("#item4");
+        let toggleBtn = document.querySelector("#toggle-btn")
+
+
+        toggleBtn.addEventListener("click", () => {
+
+            if (toggleItem.style.display === "none")
+                toggleItem.style.display = "block";
+            else
+                toggleItem.style.display = "none";
+
+        })
+    </script>
+</body>
+
+</html>
