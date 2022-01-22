@@ -10,6 +10,10 @@
     max-width: fit-content;
     padding: 15px;
   }
+  #left-badge{
+    top: 0px;
+    left: 0px;
+  }
   
   .badge {
     position: absolute;
@@ -20,8 +24,8 @@
     border-radius: 50%;
     text-align:center;
     padding: 5px;
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: 0px;
   }
   #badge2{
       font-size:22px;
@@ -29,6 +33,11 @@
       width:20px;
       text-align:center;
   }
+  .btn-badge{
+    top: -10px;
+    right: -10px;
+  }
+  
 
   
   
