@@ -1,0 +1,12 @@
+.tabs{
+    background-color:pink;
+  }
+  #tab-container{
+    background-color:hotpink;
+  }
+  #tab-content-container{
+    background-color:red;
+  }
+  .tab-content{
+     background-color:cyan;
+  }
