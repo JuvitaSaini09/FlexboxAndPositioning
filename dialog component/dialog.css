@@ -89,15 +89,13 @@ button {
     background-color: rgb(165, 154, 154);
 }
 
-button:hover {
-    border-color: rgb(143, 230, 14);
-    color: black;
-    background-color: rgb(127, 201, 17);
-}
-
 .blue-btn {
     border-color: rgb(60, 132, 226);
     ;
     color: white;
     background-color: rgb(60, 132, 226);
+}
+#main-frame button:hover{
+    color:white;
+    background-color: rgb(143, 34, 216);
 }
