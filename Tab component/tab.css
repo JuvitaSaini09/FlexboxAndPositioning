@@ -1,12 +1,35 @@
-.tabs{
-    background-color:pink;
-  }
-  #tab-container{
-    background-color:hotpink;
-  }
-  #tab-content-container{
-    background-color:red;
-  }
-  .tab-content{
-     background-color:cyan;
-  }
+#tab-container {
+
+  display:flex;
+  overflow-x: auto;
+}
+.tabs {
+  color: rgb(51, 49, 49);
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 200px;
+  margin: auto;
+  height: 30px;
+  border:white 1px dotted;
+  background-color:rgb(250, 225, 229);
+  border-radius:5px;
+
+
+}
+
+.tab-content {
+  margin:auto;
+  margin-top:100px;
+  width:60%;
+  text-align: center;
+  background-color: cyan;
+}
+
+.tabs:nth-of-type(1) {
+  color: purple;
+  border-bottom: 2px purple solid;
+}
+
+button:hover{ 
+   background-color: rgb(255, 173, 255);
+}
